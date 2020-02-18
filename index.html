@@ -1,4 +1,3 @@
-<!<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -8,29 +7,66 @@
   </head>
   <body>
     <h1>Hello</h1>
-    <div class="col-9" "container">
-      <div class="row">
+    <main class="container">
+      <div class="col-9">
+          <div class="row">
+            <img src="pia.jpg" alt="pia pic" height="200" width="200">
+          </div>
+          <div class="row">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+          </div>
+          <div class="row">
 
-      </div>
-      <div class="row container">
-          <img src="pia.jpg">
-      </div>
-      <div class="row">
-
-      </div>
-    </div>
-    <div class="col-3">
-      <div class="row">
-
-      </div>
-      <div class="row">
-
-      </div>
-      <div class="row">
-
+          </div>
       </div>
 
-    </div>
+    </main>
+
     <script type="text/javascript" src="js/jquery-4.3.1.slim.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
